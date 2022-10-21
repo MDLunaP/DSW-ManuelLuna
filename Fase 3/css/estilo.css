@@ -1,0 +1,30 @@
+.encabezado{
+    background-color: aqua;
+    padding: 30px;
+}
+.navegar{
+    background-color: aquamarine;
+    padding: 20px;
+}
+.contenido{
+    background-color: rgb(180, 255, 230);
+    padding: 15px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+.temas{
+    background-color: rgb(212, 166, 255);
+    padding: 10px;
+    grid-column: 1/4;
+}
+.lateral{
+    background-color: rgb(211, 255, 255);
+    padding: 10px;
+    text-align: right;
+    grid-column: 4/5;
+}
+.pie{
+    background-color: blueviolet;
+    padding: 15px;
+    color: blanchedalmond;
+}
