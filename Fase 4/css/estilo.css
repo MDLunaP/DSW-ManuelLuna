@@ -1,0 +1,44 @@
+.encabezado{
+    background-color: rgb(12, 58, 102);
+    padding: 30px;
+    text-transform: inherit;
+    text-align: center;
+    color: aliceblue;
+}
+.navbar{
+    background-color: rgb(245, 211, 95);
+    padding: 20px;
+    text-align: left;
+    color: black;
+}
+.contenido{
+    background-color: rgb(245, 211, 95);
+    padding: 15px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    color: aliceblue;
+}
+.temas{
+    background-color: rgb(12, 58, 102);
+    padding: 10px;
+    grid-column: 1/4;
+}
+.lateral{
+    background-color: rgb(245, 211, 95);
+    padding: 50px;
+    text-align: right;
+    grid-column: 4/5;
+}
+.pie{
+    background-color: rgb(12, 58, 102);
+    padding: 15px;
+    color: blanchedalmond;
+}
+.dropdown-menu{
+    background-color: rgb(12, 58, 102);
+    color: aliceblue;
+}
+.dropdown-item{
+    background-color: rgb(12, 58, 102);
+    color: aliceblue;
+}
